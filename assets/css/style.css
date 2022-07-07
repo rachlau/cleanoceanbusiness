@@ -160,7 +160,7 @@ p {
     color: #27404c !important;
 }
 .text-white {
-	color: rgb(122, 49, 49);
+	color: #fff;
 }
 .text-orange{
 	color: #e33324;
@@ -169,7 +169,7 @@ p {
 	background-color: #e33324 !important;
 }
 .text-blue{
-	color: #313d62;
+	color: #333162;
 }
 .bg-blue{
 	background-color: #3d405b !important;

@@ -738,6 +738,22 @@ p {
 	color: #ffffff;
 }
 
+.container .col-lg-2 a{
+    border-color: #2a6e98;
+    color: #2a6e98;
+}
+
+.container .col-lg-2 .btn-warning{
+    background-color: #89ccf6;
+    border-color: #89ccf6;
+}
+
+.container .col-lg-2 a:hover{
+    background-color: #2a6e98;
+	border-color: #2a6e98;
+	color: #ffffff;
+}
+
 .property-by-location-st3 .property-box{
     margin-bottom: 30px;
     -webkit-transition: .6s;

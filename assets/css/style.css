@@ -228,7 +228,7 @@ p {
 	box-shadow: 0 .5rem 1rem rgba(210, 91, 57,.2)!important;
 }
 .topbar.fixed-header .top-navbar .navbar-nav>.nav-item>.nav-link {
-	color: #0e2220;
+	color: #2a6e98;
 }
 .topbar .navbar {
 	padding: 0;
@@ -246,6 +246,9 @@ p {
 .topbar.fixed-header .logo-white,
 .topbar .logo-dark{
     display:none;
+    position: absolute;
+    width: 100px;
+    top: 25%;
 }
 .topbar.fixed-header .logo-dark,
 .topbar .logo-white{
@@ -253,7 +256,7 @@ p {
     position: absolute;
     width: 120px;
     left: -100px;
-    top: 30px;
+    top: 20px;
 }
 .primary-menu .nav-item.dropdown .dropdown-toggle:after{
     position: absolute;
@@ -275,14 +278,14 @@ p {
     border-color: #0e2220;
 }
 .topbar.fixed-header .primary-menu .nav-item.dropdown .dropdown-toggle:hover:after {
-    border-color: #e33324;
+    border-color: #2a6e98;
 }
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link:focus,
 .primary-menu .nav-item.dropdown .dropdown-toggle:hover:after,
 .primary-menu .nav-item.dropdown .dropdown-toggle:focus:after {
-	color: #e33324 !important;
-    border-color: #e33324;
+	color: #2a6e98 !important;
+    border-color: #2a6e98;
 }
 
 .topbar .top-navbar .navbar-nav>.nav-item>.nav-link {
@@ -337,7 +340,7 @@ p {
 
 .nav-link,
 .nav-link:hover {
-	color: #fff;
+	color: #2a6e98;
 	position: relative;
 }
 
@@ -382,7 +385,7 @@ p {
     margin-right: 15px;
 }
 .banner-serach-form  .nav-pills .nav-link.active,.banner-serach-form  .nav-link:hover{
-	background-color: #e33324;
+	background-color: #2a6e98;
 	color: #ffffff;
 }
 .banner-serach-form .more-option{
@@ -398,7 +401,7 @@ p {
 	clip-path: polygon(50% 100%, 0 0, 100% 0);
     height: 10px;
     width: 17px;
-    background: #e33324;
+    background: #2a6e98;
     position: absolute;
     top: 45px;
     left: 50%;

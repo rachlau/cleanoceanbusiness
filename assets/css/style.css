@@ -471,6 +471,11 @@ p {
     z-index: 1;
     right: 24px;
 }
+
+.property-by-location-st2 .downtown-sc{
+    height: 25rem;
+}
+
 .property-by-location-st2 .location-image {
     border-radius: 7px;
     cursor: pointer;

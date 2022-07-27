@@ -196,18 +196,18 @@ p {
 	max-height: 78px;
 }
 .btn-warning {
-	background: #e33324;
+	background: #284451;
 	color: #fff;
-	border-color: #e33324;
+	border-color: #284451;
 }
 .btn-outline-warning {
-    color: #e33324;
-    border-color: #e33324;
+    color: #2a6e98;
+    border-color: #2a6e98;
 }
 .btn-outline-warning:hover {
-    color: #9d4227;
+    color: #2a6e98;
     background-color: #fff;
-    border-color: #9d4227;
+    border-color: #2a6e98;
 }
 .btn-warning:focus {
 	box-shadow: 0 0 0 .2rem rgba(162, 62, 33, 0.5);
@@ -217,8 +217,8 @@ p {
 }
 .btn-warning:hover {
     color: #fff;
-    background-color: #c75635;
-    border-color: #c75635;
+    background-color: #2a6e98;
+    border-color: #2a6e98;
 }
 .topbar.fixed-header {
 	transition: 0.2s ease-in;
@@ -472,7 +472,7 @@ p {
     right: 24px;
 }
 
-.property-by-location-st2 .downtown-sc{
+.property-by-location-st2 .location-img{
     height: 25rem;
 }
 
@@ -581,7 +581,7 @@ p {
     transition: all 0.6s ease;
 }
 .home-why-us-section .why-choose-us-meta .icon svg{
-	color: #e33324;
+	color: #2a6e98;
     font-size: 60px;
     vertical-align: middle;
 }
@@ -593,7 +593,7 @@ p {
     box-shadow: 0px 0px 50px 0px rgb(19 19 28 / 12%);	
 }
 .home-why-us-section .why-choose-us-meta:hover .icon{
-	background-color: #e33324;
+	background-color: #6ac6ff;
 }
 .home-why-us-section .why-choose-us-meta:hover .icon svg{
 	color: #ffffff;
@@ -729,7 +729,7 @@ p {
 }
 .home-cta-section{
 	padding: 50px;
-    background: #5bc8ff;
+    background: #3d405b;
 }
 .home-cta-section .cta-btn a{
 	background-color: #ffffff;
@@ -922,14 +922,18 @@ p {
     padding: 8px;
 }
 .inner-page-breadcrumb {
-    background-image: url(../images/stockimages/stockimages1.jpg);
+    background-image: url(../images/banners/banner-home.png);
+    background-size: 100%;
     background-repeat: no-repeat;
     padding: 170px 0 150px;
-    height: 410px;
+    
     position: relative;
+    width: 100%;
+    height: 100%;
+    
 }
 .inner-page-breadcrumb:before {
-    background-color: rgb(29, 41, 62);
+    /* background-color: rgb(255, 255, 255); */
     bottom: 0;
     content: "";
     left: 0;
@@ -1342,6 +1346,7 @@ p {
     margin-top: 100px;
     padding-top: 30px;
     border-top: 1px solid;
+    color:#333162
 }
 
 /* Property Item */

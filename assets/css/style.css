@@ -255,7 +255,7 @@ p {
     display: block;
     position: absolute;
     width: 120px;
-    left: -100px;
+    left: -50px;
     top: 20px;
 }
 .primary-menu .nav-item.dropdown .dropdown-toggle:after{
@@ -1007,7 +1007,7 @@ p {
 
 .sidebar-latest-blog-widget .blog-image,
 .sidebar-top-rated-pro-widget .top-pro-image{
-	object-fit: cover;
+	object-fit: scale-down;
 }
 .follow-item .social-icons li:hover {
 	background: #c75635;
@@ -1651,4 +1651,11 @@ p {
 	.featured-property-carousel .owl-item.active {
 	  opacity: 1;
 	}
+}
+
+/* for images in blogv3*/
+.fix-img {
+    width:  auto;
+    height: 250px;
+    object-fit: fill;
 }

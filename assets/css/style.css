@@ -1196,6 +1196,7 @@ p {
 }	
 .page-membership-section .pricing-meta .card{
 	border-radius: 8px;
+    height: 570px;
 }
 .pricing-meta .pricing-header{
 	padding: 35px 0;
